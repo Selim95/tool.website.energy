@@ -4,5 +4,8 @@
   },
   "scripts": {
     "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5"
   }
 }

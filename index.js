@@ -4,6 +4,8 @@ import lighthouse from './lighthouse.json';
 
 import model from './model';
 
+import './style.styl';
+
 const view = ({ model: { lighthouse, watts, seconds } }) => {
   console.log(lighthouse.audits.interactive);
 
