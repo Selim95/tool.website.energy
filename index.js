@@ -18,7 +18,11 @@ const view = ({
 
       Math.round(lighthouse.audits.interactive.rawValue / 100) / 10,
       [{ _: 'p' }, lighthouse.audits.interactive.displayValue],
-      [{ _: 'p' }, lighthouse.audits.interactive.rawValue * watts, 'mWh'],
+      [
+        { _: 'p', class: 'result' },
+        lighthouse.audits.interactive.rawValue * watts,
+        'mWh'
+      ],
       [{ _: 'a', href: 'https://website.energy' }, 'link text']
     ]
   ];
